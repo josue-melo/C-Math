@@ -46,6 +46,7 @@ Além disso, o **C-Math** tem como objetivos:
 - Validação de entrada do usuário  
 - Manipulação de entrada com `scanf`  
 
+---
 
 ## 🗂️ Estrutura do Projeto
 ```
@@ -86,6 +87,7 @@ Windows:
 
     bin\C-Math.exe
 
+---
 
 ## 🎮 Navegação
 
