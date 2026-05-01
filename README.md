@@ -70,14 +70,14 @@ C-Math/
 
 Use o comando abaixo dentro da pasta do projeto:
 
-    ```gcc src/*.c src/*/*.c src/*/*/*.c -Iinclude -o bin/C-Math```
+    gcc src/*.c src/*/*.c src/*/*/*.c -Iinclude -o bin/C-Math
 
 
 ### ▶️ Executar
 
 Linux/Mac:
 
-    ```./bin/C-Math```
+    ./bin/C-Math
 
 Windows:
 
@@ -95,7 +95,7 @@ Windows:
 
 ## 🖥️ Preview
 
-![demo](.assets/Demo.gif)
+<img width="346" height="632" alt="C-Math" src="https://github.com/user-attachments/assets/8a068a10-e24e-4804-9088-6a8441865449" />
 
 ### Exemplo de execução
 
@@ -161,4 +161,4 @@ Este projeto representa evolução prática em:
 - pensamento lógico  
 - construção de sistemas modulares  
 
-Se curtir, deixa uma ⭐ no repositório 😄
+Se curtir o projeto ou ele de ajudar, deixe uma ⭐ no repositório 😄
