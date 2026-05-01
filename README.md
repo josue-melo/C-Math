@@ -125,9 +125,7 @@ Windows:
 ## 🚧 Futuras melhorias
 
 - 📊 Média e mediana  
-- 📐 Funções trigonométricas  
-- 🧾 Histórico de operações  
-- 🎨 Interface mais interativa no terminal  
+- 📐 Geometria basica
 - 🧠 Sistema de menus mais dinâmico  
 
 ---
