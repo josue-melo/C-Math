@@ -1,10 +1,9 @@
 # 🧮 C-Math
 
-**C-Math** é uma calculadora desenvolvida em **C**, focada em desempenho, organização e aprendizado prático de programação.
+**C-Math** é uma calculadora modular desenvolvida em **C**, focada em desempenho, organização e aprendizado prático de programação.
 
 O projeto foi criado para automatizar cálculos matemáticos do dia a dia e evolui constantemente com a adição de novas funcionalidades conforme novos conceitos são aprendidos.
 
----
 
 ## 🎯 Propósito
 
@@ -25,13 +24,8 @@ Além disso, o **C-Math** tem como objetivos:
 
 ### 📌 Matemática Básica
 
-#### Aritmética
-- Soma -> [Ver codigo](src/math/basic.c)
-- Subtração -> [Ver codigo](src/math/basic.c)
-- Multiplicação -> [Ver codigo](src/math/basic.c)
-- Divisão -> [Ver codigo](src/math/basic.c)
-- Potenciação -> [Ver codigo](src/math/basic.c) 
-- Raiz quadrada -> [Ver codigo](src/math/basic.c) 
+- ➕ Aritmética -> [Ver código](src/math/basic/arithmetic.c)
+- ％ Porcentagem -> [Ver código](src/math/basic/percentage.c)
 
 ---
 
@@ -73,18 +67,20 @@ Além disso, o **C-Math** tem como objetivos:
 
 Use o comando abaixo dentro da pasta do projeto:
 
-    gcc src/*.c src/*/*.c -Iinclude -o bin/C-Math
+````markdown
+```bash
+gcc src/*.c src/*/*.c src/*/*/*.c -Iinclude -o bin/C-Math
 
 
 ### ▶️ Executar
 
 Linux/Mac:
 
-    ./bin/C-Math
+    ``` ./bin/C-Math ```
 
 Windows:
 
-    bin\C-Math.exe
+    ``` bin\C-Math.exe ```
 
 
 ## 🎮 Navegação
@@ -97,8 +93,20 @@ Windows:
 
 ## 🖥️ Preview
 
+![demo](./assets/Demo.gif)
+
+### Exemplo de execução
+
+```text
    ------- Menu Principal -------
     1 - Matemática Básica
+    0 - Sair
+
+    > 1
+
+    ----- Matemática Básica -----
+    1 - Aritmética
+    2 - Porcentagem
     0 - Sair
 
     > 1
@@ -110,23 +118,23 @@ Windows:
     4 - Divisão
     5 - Potência
     6 - Raiz quadrada
-    0 - Voltar
+    0 - Sair
 
     > 1
+
     Digite o primeiro numero: 5
     Digite o segundo numero: 3
 
     Resultado: 8.00
-
+```
 ---
 
 ## 🚧 Futuras melhorias
 
-- 📊 Média e mediana  
-- 📐 Funções trigonométricas  
-- 🧾 Histórico de operações  
-- 🎨 Interface mais interativa no terminal  
-- 🧠 Sistema de menus mais dinâmico  
+- 📊 Estatística (média, mediana, moda)
+- 📐 Geometria (área, perímetro)
+- 🧠 Funções matemáticas avançadas
+- 🗂️ Sistema de módulos mais expansível
 
 ---
 
@@ -151,4 +159,4 @@ Este projeto representa evolução prática em:
 - pensamento lógico  
 - construção de sistemas modulares  
 
-Se curtir, deixa uma ⭐ no repositório 😄
+Se curtiu ou projeto te ajudou, considere deixar uma ⭐ no repositório 😄.

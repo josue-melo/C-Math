@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <windows.h>
 
-#include "math/basic.h"
+#include "math/basic/arithmetic.h"
 #include "controller/basic-controller.h"
 #include "ui/input.h"
 #include "ui/menu.h"

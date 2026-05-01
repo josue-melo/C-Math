@@ -6,5 +6,6 @@ void showMenu(void);
 // Matematica basica
 void showBasicMath(void);
 void showArithmeticOperations(void);
+void showPorcentage(void);
 
 #endif

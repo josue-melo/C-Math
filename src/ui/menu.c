@@ -13,13 +13,14 @@ void showMenu(void)
     printf("--------------------------\n");
 }
 
-// Matematica basica
+// ------------------------------------------- Matematica basica -------------------------------------------------------
 
 void showBasicMath(void)
 {
     printf("---------- Matematica Basica ----------\n");
     printf("\n");
     printf("1 - Operações Aritimeticas\n");
+    printf("2 - Porcentagem\n");
     printf("0 - Sair\n");
     printf("\n");
     printf("---------------------------------------\n");
@@ -38,4 +39,16 @@ void showArithmeticOperations(void)
     printf("0 - Sair\n");
     printf("\n");
     printf("-------------------------------------------\n");
+}
+
+void showPorcentage(void)
+{
+    printf("---------- Porcentagem ----------\n");
+    printf("\n");
+    printf("1 - Porcentagem\n");
+    printf("2 - Aumento\n");
+    printf("3 - Desconto\n");
+    printf("0 - Sair");
+    printf("\n");
+    printf("---------------------------------\n");
 }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #include "ui/input.h"
 
 int selectOption(int maxOption)
@@ -8,12 +7,12 @@ int selectOption(int maxOption)
 
     do
     {
-        printf("Escolha uma opcao: ");
+        printf("Escolha uma opção: ");
         scanf("%d", &option);
 
         if (option < 0 || option > maxOption)
         {
-            printf("Opcao invalida! Tente novamente.\n");
+            printf("Opção inválida! Tente novamente.\n");
         }
 
     } while (option < 0 || option > maxOption);
@@ -21,12 +20,18 @@ int selectOption(int maxOption)
     return option;
 }
 
-float getNumber (const char *msg)
+float getNumber(const char *msg)
 {
     float num;
 
     printf("%s", msg);
-    scanf("%f", &num);
+    int result = scanf("%f", &num);
 
     return num;
+}
+
+void getTwoNumbers(float *a, float *b)
+{
+    *a = getNumber("Digite o primeiro número: ");
+    *b = getNumber("Digite o segundo numero: ");
 }
