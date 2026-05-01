@@ -95,7 +95,7 @@ Windows:
 
 ## 🖥️ Preview
 
-[demo](.assets/Demo.gif)
+![demo](.assets/Demo.gif)
 
 ### Exemplo de execução
 
