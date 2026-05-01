@@ -124,9 +124,10 @@ Windows:
 
 ## 🚧 Futuras melhorias
 
-- 📊 Média e mediana  
-- 📐 Geometria basica
-- 🧠 Sistema de menus mais dinâmico  
+- 📊 Estatística (média, mediana, moda)
+- 📐 Geometria (área, perímetro) 
+- 🧠 Funções matemáticas avançadas 
+- 🗂️ Sistema de módulos mais expansível 
 
 ---
 
