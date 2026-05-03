@@ -7,5 +7,6 @@ void showMenu(void);
 void showBasicMath(void);
 void showArithmeticOperations(void);
 void showPorcentage(void);
+void showStatistic(void);
 
 #endif

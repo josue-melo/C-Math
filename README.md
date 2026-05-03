@@ -26,6 +26,7 @@ Além disso, o **C-Math** tem como objetivos:
 
 - ➕ Aritmética → [Ver código](src/math/basic/arithmetic.c)  
 - ％ Porcentagem → [Ver código](src/math/basic/percentage.c)  
+- 📊 Estatística → [Ver codigo](src/math/basic/statistic.c)
 
 ---
 
@@ -109,6 +110,7 @@ Windows:
 ----- Matemática Básica -----
 1 - Aritmética
 2 - Porcentagem
+3 - Estatística
 0 - Sair
 
 > 1
@@ -133,7 +135,7 @@ Resultado: 8.00
 
 ## 🚧 Futuras melhorias
 
-- 📊 Estatística (média, mediana, moda)
+- 📊 Estatística (mediana, moda)
 - 📐 Geometria (área, perímetro) 
 - 🧠 Funções matemáticas avançadas 
 - 🗂️ Sistema de módulos mais expansível 

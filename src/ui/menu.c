@@ -21,7 +21,8 @@ void showBasicMath(void)
     printf("\n");
     printf("1 - Operações Aritimeticas\n");
     printf("2 - Porcentagem\n");
-    printf("0 - Sair\n");
+    printf("3 - Estatística\n");
+    printf("0 - Voltar\n");
     printf("\n");
     printf("---------------------------------------\n");
 }
@@ -36,7 +37,7 @@ void showArithmeticOperations(void)
     printf("4 - Divisão\n");
     printf("5 - Potenciação\n");
     printf("6 - Raiz quadrada\n");
-    printf("0 - Sair\n");
+    printf("0 - Voltar\n");
     printf("\n");
     printf("-------------------------------------------\n");
 }
@@ -48,7 +49,18 @@ void showPorcentage(void)
     printf("1 - Porcentagem\n");
     printf("2 - Aumento\n");
     printf("3 - Desconto\n");
-    printf("0 - Sair");
+    printf("0 - Voltar");
+    printf("\n");
+    printf("---------------------------------\n");
+}
+
+void showStatistic(void)
+{
+    printf("---------- Estatística ----------\n");
+    printf("\n");
+    printf("1 - Media de dois valores\n");
+    printf("2 - Media de multiplos valores\n");
+    printf("0 - Voltar");
     printf("\n");
     printf("---------------------------------\n");
 }

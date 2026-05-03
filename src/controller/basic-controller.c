@@ -7,13 +7,14 @@
 #include "controller/arithmetic-controller.h"
 #include "controller/basic-controller.h"
 #include "controller/percentage-controller.h"
+#include "controller/statistic-controller.h"
 
 // UI
 #include "ui/input.h"
 #include "ui/menu.h"
 
 #define INIT_CALC_OPTIONS 1
-#define BASIC_OPTIONS 2
+#define BASIC_OPTIONS 3
 
 
 bool basicMath(void)
@@ -33,6 +34,9 @@ bool basicMath(void)
                 break;
             case 2:
                 percentageOperations();
+                break;
+            case 3:
+                statisticOperations();
                 break;
             default:
                 printf("Opção invalida!\n");
