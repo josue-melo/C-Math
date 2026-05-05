@@ -6,7 +6,7 @@
 #include "math/basic/statistic.h"
 #include "controller/statistic-controller.h"
 
-#define STATISTIC_OPTIONS 2
+#define STATISTIC_OPTIONS 3
 #define MAX_COUNT 100
 
 bool statisticOperations (void)
@@ -42,6 +42,16 @@ bool statisticOperations (void)
             printf("A média é: %.2f\n", result);
 
             break;
+        }
+        case 3:
+        {
+            float values[MAX_COUNT];
+
+            int count = getArrayValues(values);
+
+            float result = median(values, count);
+
+            printf("A mediana é: %.2f\n", result);
         }
         default:
             printf("Opção invalida!\n");

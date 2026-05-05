@@ -58,8 +58,9 @@ void showStatistic(void)
 {
     printf("---------- Estatística ----------\n");
     printf("\n");
-    printf("1 - Media de dois valores\n");
-    printf("2 - Media de multiplos valores\n");
+    printf("1 - Média de dois valores\n");
+    printf("2 - Média de multiplos valores\n");
+    printf("3 - Mediana de valores\n");
     printf("0 - Voltar");
     printf("\n");
     printf("---------------------------------\n");

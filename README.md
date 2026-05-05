@@ -111,7 +111,7 @@ Windows:
 1 - Aritmética
 2 - Porcentagem
 3 - Estatística
-0 - Sair
+0 - Voltar
 
 > 1
 
@@ -122,7 +122,7 @@ Windows:
 4 - Divisão
 5 - Potência
 6 - Raiz quadrada
-0 - Sair
+0 - Voltar
 
 > 1
 
@@ -135,7 +135,7 @@ Resultado: 8.00
 
 ## 🚧 Futuras melhorias
 
-- 📊 Estatística (mediana, moda)
+- 📊 Estatística (moda)
 - 📐 Geometria (área, perímetro) 
 - 🧠 Funções matemáticas avançadas 
 - 🗂️ Sistema de módulos mais expansível 
