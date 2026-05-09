@@ -15,7 +15,7 @@ int selectOption(int maxOption)
     int option;
     int result;
 
-    do
+    while (true)
     {
         printf("Escolha uma opção: ");
         result = scanf("%d", &option);
@@ -27,18 +27,15 @@ int selectOption(int maxOption)
             continue;
         }
 
-        if (option < 0 || option > maxOption)
+        if (option >= 0 && option <= maxOption)
         {
-            printf("Opção inválida! Tente novamente.\n");
+            clearBuffer();
+            return option;
         }
 
-    } while (option < 0 || option > maxOption);
-
-    clearBuffer();
-
-    return option;
+        printf("Opção inválida! Tente novamente.\n");
+    }
 }
-
 float getNumber(const char *msg)
 {
     float num;

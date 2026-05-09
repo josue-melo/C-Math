@@ -6,6 +6,7 @@
 // Controler
 #include "controller/arithmetic-controller.h"
 #include "controller/basic-controller.h"
+#include "controller/num&prop-controller.h"
 #include "controller/percentage-controller.h"
 #include "controller/statistic-controller.h"
 
@@ -14,7 +15,7 @@
 #include "ui/menu.h"
 
 #define INIT_CALC_OPTIONS 1
-#define BASIC_OPTIONS 3
+#define BASIC_OPTIONS 4
 
 
 bool basicMath(void)
@@ -37,6 +38,9 @@ bool basicMath(void)
                 break;
             case 3:
                 statisticOperations();
+                break;
+            case 4:
+                numPropOperations();
                 break;
             default:
                 printf("Opção invalida!\n");

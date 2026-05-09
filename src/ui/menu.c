@@ -13,7 +13,7 @@ void showMenu(void)
     printf("--------------------------\n");
 }
 
-// ------------------------------------------- Matematica basica -------------------------------------------------------
+// ----------------------------------------- Matematica basica -------------------------------------------
 
 void showBasicMath(void)
 {
@@ -22,6 +22,7 @@ void showBasicMath(void)
     printf("1 - Operações Aritimeticas\n");
     printf("2 - Porcentagem\n");
     printf("3 - Estatística\n");
+    printf("4 - Números e propiedades\n");
     printf("0 - Voltar\n");
     printf("\n");
     printf("---------------------------------------\n");
@@ -61,6 +62,17 @@ void showStatistic(void)
     printf("1 - Média de dois valores\n");
     printf("2 - Média de multiplos valores\n");
     printf("3 - Mediana de valores\n");
+    printf("0 - Voltar");
+    printf("\n");
+    printf("---------------------------------\n");
+}
+
+void showNumProp(void)
+{
+    printf("---------- Números e Propiedades ----------\n");
+    printf("\n");
+    printf("1 - Ímpar ou par\n");
+    printf("2 - Número primo\n");
     printf("0 - Voltar");
     printf("\n");
     printf("---------------------------------\n");

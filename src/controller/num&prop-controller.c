@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+#include "math/basic/arithmetic.h"
+#include "ui/input.h"
+#include "ui/menu.h"
+#include "math/basic/num&prop.h"
+#include "controller/num&prop-controller.h"
+
+#define NUMPROP_OPTIONS 2
+
+bool numPropOperations(void)
+{
+    while (true)
+    {
+        showNumProp();
+        int option = selectOption(NUMPROP_OPTIONS);
+
+        if (option == 0)
+            return false;
+
+        switch (option)
+        {
+            case 1:
+            {
+                int num = getNumber("Digite um número: ");
+
+                if (isEven(num))
+                    printf("%i eh par\n", num);
+                else
+                    printf("%i eh ímpar\n", num);
+
+                break;
+            }
+
+            case 2:
+            {
+                int num = getNumber("Digite um número: ");
+
+                if (num < 0)
+                {
+                    printf("Não existe raiz real de número negativo!\n");
+                    break;
+                }
+
+                if (isPrime(num))
+                    printf("%i eh primo\n", num);
+                else
+                    printf("%i não eh primo\n", num);
+
+                break;
+            }
+
+            default:
+            {
+                printf("Opção inválida!\n");
+                break;
+            }
+        }
+    }
+}

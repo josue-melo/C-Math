@@ -26,7 +26,8 @@ Além disso, o **C-Math** tem como objetivos:
 
 - ➕ Aritmética → [Ver código](src/math/basic/arithmetic.c)  
 - ％ Porcentagem → [Ver código](src/math/basic/percentage.c)  
-- 📊 Estatística → [Ver codigo](src/math/basic/statistic.c)
+- 📊 Estatística → [Ver código](src/math/basic/statistic.c)
+- 🔢 Números e propiedades → [Ver código](src/math/basic/num&prop.c)
 
 ---
 
@@ -111,6 +112,7 @@ Windows:
 1 - Aritmética
 2 - Porcentagem
 3 - Estatística
+4 - Números e propiedades
 0 - Voltar
 
 > 1

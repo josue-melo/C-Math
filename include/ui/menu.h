@@ -8,5 +8,6 @@ void showBasicMath(void);
 void showArithmeticOperations(void);
 void showPorcentage(void);
 void showStatistic(void);
+void showNumProp(void);
 
 #endif
