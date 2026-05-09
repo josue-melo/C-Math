@@ -27,7 +27,7 @@ Além disso, o **C-Math** tem como objetivos:
 - ➕ Aritmética → [Ver código](src/math/basic/arithmetic.c)  
 - ％ Porcentagem → [Ver código](src/math/basic/percentage.c)  
 - 📊 Estatística → [Ver código](src/math/basic/statistic.c)
-- 🔢 Números e propiedades → [Ver código](src/math/basic/num&prop.c)
+- 🔢 Números e propriedades → [Ver código](src/math/basic/num&prop.c)
 
 ---
 
@@ -137,10 +137,10 @@ Resultado: 8.00
 
 ## 🚧 Futuras melhorias
 
-- 📊 Estatística (moda)
-- 📐 Geometria (área, perímetro) 
-- 🧠 Funções matemáticas avançadas 
-- 🗂️ Sistema de módulos mais expansível 
+- 📊 Estatística (moda, desvio padrão)
+- 📐 Geometria (área, volume, perímetro)
+- 🧮 Álgebra (equações simples)
+- ⚡ Performance (otimizações e caching)
 
 ---
 
@@ -156,8 +156,6 @@ Desenvolvido por Josué 🚀
 Projeto com foco em aprendizado e evolução contínua em programação C.
 
 ---
-
-## ⭐ Considerações finais
 
 Este projeto representa evolução prática em:
 
